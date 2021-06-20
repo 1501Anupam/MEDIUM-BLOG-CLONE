@@ -1,0 +1,47 @@
+.wrapper {
+  height: 450px;
+  background: #FFC017;
+}
+
+.logo {
+  fill: rgba(0, 0, 0, 1);
+  height: 25px;
+}
+
+.partition {
+  height: 75px;
+  border-bottom: 1px solid #000;
+}
+
+.logo-pos {
+  padding: 18px 0px 15px 60px;
+  vertical-align: middle;
+}
+
+.get-started-btn {
+  padding: 7px 16px 9px;
+  transition: background-color 300ms linear 0s, color 300ms linear 0s;
+  border-color: rgb(25, 25, 25);
+  background: rgb(25, 25, 25);
+  fill: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  border-width: 1px;
+  border-radius: 99em;
+  line-height: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+h2 {
+  letter-spacing: -0.05em;
+  line-height: 74px;
+  font-size: 70px;
+  color: rgba(8, 8, 8, 1);
+  font-feature-settings: 'pnum'on, 'lnum'on;
+  font-weight: 400;
+  font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+}
